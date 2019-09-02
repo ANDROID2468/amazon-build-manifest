@@ -2,10 +2,12 @@
 <manifest>
   <!-- slim rom for 7" amazon tablets
   #####################################################-->
-
-  
   <remote  name="android2468"
            fetch="http://2468gitlab.duckdns.org:2443/ANDROID2468/" />
+
+  
+  <remote  name="github.com"
+           fetch="https://github.com/" />
 
  
   <!-- REMOVALS (must be at TOP)
@@ -14,15 +16,15 @@
 
   <!-- KERNEL
   #####################################################-->
-  <project name="ggow/android_kernel_amazon_mt8127-common" path="kernel/amazon/mt8127-common" remote="github" revision="lineage-16.0" />
+  <project name="ggow/android_kernel_amazon_mt8127-common" path="kernel/amazon/mt8127-common" remote="github.com" revision="lineage-16.0" />
 
   <!-- DEVICE TREES
   #####################################################-->
   <project name="ANDROID2468/android_device_amazon_mt8127-common" path="device/amazon/mt8127-common" remote="github" />
-  <project name="ANDROID2468/android_device_amazon_austin" path="device/amazon/austin" remote="github" />
+  <project name="ANDROID2468/android_device_amazon_austin" path="device/amazon/austin" remote="github.com" />
 
 
   <!-- FDroid -->
-  <project name="cryptomilk/android_vendor_fdroid" path="vendor/fdroid" remote="github" revision="master" />
+  <project name="cryptomilk/android_vendor_fdroid" path="vendor/fdroid" remote="github.com" revision="master" />
 
 </manifest>
