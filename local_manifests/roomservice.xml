@@ -20,8 +20,8 @@
 
   <!-- DEVICE TREES
   #####################################################-->
-  <project name="ANDROID2468/android_device_amazon_mt8127-common" path="device/amazon/mt8127-common" remote="github" />
-  <project name="ANDROID2468/android_device_amazon_austin" path="device/amazon/austin" remote="github.com" />
+  <project name="ANDROID2468/android_device_amazon_mt8127-common" path="device/amazon/mt8127-common" remote="github" revision="cm-12.1" />
+  <project name="ANDROID2468/android_device_amazon_austin" path="device/amazon/austin" remote="github.com" revision="cm-12.1" />
 
 
   <!-- FDroid -->
