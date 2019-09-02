@@ -4,8 +4,8 @@
   #####################################################-->
 
   
-  <remote  name="github"
-           fetch="https://github.com/" />
+  <remote  name="android2468"
+           fetch="http://2468gitlab.duckdns.org:2443/ANDROID2468/" />
 
  
   <!-- REMOVALS (must be at TOP)
